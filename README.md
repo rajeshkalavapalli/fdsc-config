@@ -20,3 +20,8 @@
 
 - Repeat enquiries from the same mobile or email within 30 days are added to the existing enquiry instead of creating a new one
 - Website login can now only run the submit enquiry procedure
+
+### V 1.0.5
+
+- Split the enquiry controller into index (routes), enquiryHandler, enquiryService, enquiryDA and sql files with try / catch in each layer
+- Errors are logged once with the exact function name
