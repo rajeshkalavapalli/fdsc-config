@@ -25,3 +25,7 @@
 
 - Split the enquiry controller into index (routes), enquiryHandler, enquiryService, enquiryDA and sql files with try / catch in each layer
 - Errors are logged once with the exact function name
+
+### V 1.0.6
+
+- Automatic retry while the Azure database wakes up from pause, so enquiries do not fail
